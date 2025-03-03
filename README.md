@@ -4,9 +4,9 @@ Currently, the tool looks through your Calibre library and compares it to what's
 
 usage: ``python3 calibre-checker.py <location> <action>``
 
-Location: the directory where your books are. Importantly, your metadata.db database file has to live here. For example, "/mnt/storage/ebooks"
+``location``: the directory where your books are. Importantly, your metadata.db database file has to live here. For example, "/mnt/storage/ebooks"
 
-Action: One of several options.
- - paths: books in the Calibre database with file paths that don't exist in the library directory
- - files: specific ebook files in the database that do not exist in their path
- - status: a count summary of the above errors
+``action``: One of several options.
+ - ``paths``: books in the Calibre database with file paths that don't exist in the library directory
+ - ``files``: specific ebook files in the database that do not exist in their path
+ - ``status``: a count summary of the above errors
