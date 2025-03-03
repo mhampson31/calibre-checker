@@ -1,0 +1,1 @@
+My Calibre library was in pretty rough shape after many years of neglect and a few different manual attempts to clean up the file structure. This script is just a little tool I built to help me get it back into shape.
